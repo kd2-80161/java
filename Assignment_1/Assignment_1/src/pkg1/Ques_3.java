@@ -15,17 +15,18 @@ public class Ques_3 {
 
 	public static void main(String[] args) {
 		Scanner Sc = new Scanner(System.in);
-		System.out.println("Press 0 to exit");
-		int choice = Sc.nextInt();
+	
+		int choice =-1;
 		int sum=0;
 
 		while (choice != 0) {
+			System.out.println("Press 0 to exit");
 			System.out.println("1.Dosa");
 			System.out.println("2.Samosa");
 			System.out.println("3.Idli");
 			System.out.println("4.Vada Pav");
 			System.out.println("5.Burger");
-			choice = Sc.nextInt();
+			 choice = Sc.nextInt();
 
 			switch (choice) {
 			case 1:
